@@ -7,16 +7,31 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h3>Arc de San Martí</h3>
 
-<p id="roig">roig, red, rojo</p>
-<p id="taronja">taroja, orange, naranja</p>
-<p id="groc">groc, yellow, amarillo</p>
-<p id="verd">verd, green, verde</p>
-<p id="blauc">blau clar, light blue, azul claro</p>
-<p id="blau">blau, blue, azul</p>
-<p id="morat">morat, purple, morado</p>
+<script>
 
-    
+
+function Functionarc(){
+    document.getElementById("rojo").style.color='red';
+    document.getElementById("taronja").style.color='orange';
+    document.getElementById("groc").style.color='yellow';
+    document.getElementById("verd").style.color='green';
+    document.getElementById("blauc").style.color='lightblue';
+    document.getElementById("blau").style.color='blue';
+    document.getElementById("morat").style.color='purple';
+
+}
+
+</script>
+
+    <h3 onclick="Functionarc()">Arc de San Martí</h3>
+    <span id="rojo">rojo, red, rojo</span> <br>
+    <span id="taronja">taroja, orange, naranja</span> <br>
+    <span id="groc">groc, yellow, amarillo</span> <br>
+    <span id="verd">verd, green, verde</span> <br>
+    <span id="blauc">blau clar, light blue, azul claro</span> <br>
+    <span id="blau">blau, blue, azul</span> <br>
+    <span id="morat">morat, purple, morado</span>
+
 </body>
 </html>
